@@ -18,6 +18,10 @@ from auth_utils import decode_access_token, get_password_hash, verify_password, 
 from recommendation import get_content_recommendations
 
 app = FastAPI(title="AI Music Recommendation API - Phase 4")
+@app.on_event("startup")
+def startup_event():
+    from init_db import init_db
+    init_db()
 
 # Configure CORS origins dynamically from environment variable
 cors_origin_str = os.getenv("CORS_ORIGIN", "http://localhost:5173")
