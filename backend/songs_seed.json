@@ -1,0 +1,3242 @@
+[
+    {
+        "title": "Kesariya",
+        "artist": "Arijit Singh",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2022,
+        "album": "Brahmastra",
+        "audio_url": "/static/audio/song_1.mp3"
+    },
+    {
+        "title": "Blinding Lights",
+        "artist": "The Weeknd",
+        "genre": "Synthpop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2019,
+        "album": "After Hours",
+        "audio_url": "/static/audio/song_2.mp3"
+    },
+    {
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "genre": "Pop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2017,
+        "album": "Divide",
+        "audio_url": "/static/audio/song_3.mp3"
+    },
+    {
+        "title": "Apna Bana Le",
+        "artist": "Arijit Singh",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2022,
+        "album": "Bhediya",
+        "audio_url": "/static/audio/song_4.mp3"
+    },
+    {
+        "title": "Starboy",
+        "artist": "The Weeknd",
+        "genre": "R&B/Pop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2016,
+        "album": "Starboy",
+        "audio_url": "/static/audio/song_5.mp3"
+    },
+    {
+        "title": "Gasolina",
+        "artist": "Daddy Yankee",
+        "genre": "Reggaeton",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2004,
+        "album": "Barrio Fino",
+        "audio_url": "/static/audio/song_6.mp3"
+    },
+    {
+        "title": "Raataan Lambiyan",
+        "artist": "Jubin Nautiyal",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2021,
+        "album": "Shershaah",
+        "audio_url": "/static/audio/song_7.mp3"
+    },
+    {
+        "title": "Heat Waves",
+        "artist": "Glass Animals",
+        "genre": "Indie Pop",
+        "mood": "Chill",
+        "language": "English",
+        "year": 2020,
+        "album": "Dreamland",
+        "audio_url": "/static/audio/song_8.mp3"
+    },
+    {
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "genre": "Pop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2020,
+        "album": "Future Nostalgia",
+        "audio_url": "/static/audio/song_9.mp3"
+    },
+    {
+        "title": "Dynamite",
+        "artist": "BTS",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2020,
+        "album": "Be",
+        "audio_url": "/static/audio/song_10.mp3"
+    },
+    {
+        "title": "Tum Hi Ho",
+        "artist": "Arijit Singh",
+        "genre": "Romantic",
+        "mood": "Sad",
+        "language": "Hindi",
+        "year": 2013,
+        "album": "Aashiqui 2",
+        "audio_url": "/static/audio/song_11.mp3"
+    },
+    {
+        "title": "Pasoori",
+        "artist": "Ali Sethi & Shae Gill",
+        "genre": "Indie Pop",
+        "mood": "Chill",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Coke Studio",
+        "audio_url": "/static/audio/song_12.mp3"
+    },
+    {
+        "title": "Kahani Suno 2.0",
+        "artist": "Kaifi Khalil",
+        "genre": "Indie/Romantic",
+        "mood": "Sad",
+        "language": "Urdu",
+        "year": 2022,
+        "album": "Kahani Suno",
+        "audio_url": "/static/audio/song_13.mp3"
+    },
+    {
+        "title": "Under the Influence",
+        "artist": "Chris Brown",
+        "genre": "R&B",
+        "mood": "Dark",
+        "language": "English",
+        "year": 2019,
+        "album": "Indigo",
+        "audio_url": "/static/audio/song_14.mp3"
+    },
+    {
+        "title": "Stay",
+        "artist": "The Kid LAROI & Justin Bieber",
+        "genre": "Pop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2021,
+        "album": "F*CK LOVE 3",
+        "audio_url": "/static/audio/song_15.mp3"
+    },
+    {
+        "title": "Blank Space",
+        "artist": "Taylor Swift",
+        "genre": "Pop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2014,
+        "album": "1989",
+        "audio_url": "/static/audio/song_16.mp3"
+    },
+    {
+        "title": "Cruel Summer",
+        "artist": "Taylor Swift",
+        "genre": "Pop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2019,
+        "album": "Lover",
+        "audio_url": "/static/audio/song_17.mp3"
+    },
+    {
+        "title": "Anti-Hero",
+        "artist": "Taylor Swift",
+        "genre": "Pop",
+        "mood": "Chill",
+        "language": "English",
+        "year": 2022,
+        "album": "Midnights",
+        "audio_url": "/static/audio/song_18.mp3"
+    },
+    {
+        "title": "7 rings",
+        "artist": "Ariana Grande",
+        "genre": "Pop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2019,
+        "album": "Thank U, Next",
+        "audio_url": "/static/audio/song_19.mp3"
+    },
+    {
+        "title": "Into You",
+        "artist": "Ariana Grande",
+        "genre": "Pop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2016,
+        "album": "Dangerous Woman",
+        "audio_url": "/static/audio/song_20.mp3"
+    },
+    {
+        "title": "Uptown Funk",
+        "artist": "Bruno Mars",
+        "genre": "Pop",
+        "mood": "Party",
+        "language": "English",
+        "year": 2014,
+        "album": "Uptown Special",
+        "audio_url": "/static/audio/song_21.mp3"
+    },
+    {
+        "title": "24K Magic",
+        "artist": "Bruno Mars",
+        "genre": "Pop",
+        "mood": "Party",
+        "language": "English",
+        "year": 2016,
+        "album": "24K Magic",
+        "audio_url": "/static/audio/song_22.mp3"
+    },
+    {
+        "title": "Bad Guy",
+        "artist": "Billie Eilish",
+        "genre": "Pop",
+        "mood": "Dark",
+        "language": "English",
+        "year": 2019,
+        "album": "When We All Fall Asleep",
+        "audio_url": "/static/audio/song_23.mp3"
+    },
+    {
+        "title": "Everything I Wanted",
+        "artist": "Billie Eilish",
+        "genre": "Pop",
+        "mood": "Sad",
+        "language": "English",
+        "year": 2019,
+        "album": "Single",
+        "audio_url": "/static/audio/song_24.mp3"
+    },
+    {
+        "title": "Birds of a Feather",
+        "artist": "Billie Eilish",
+        "genre": "Pop",
+        "mood": "Chill",
+        "language": "English",
+        "year": 2024,
+        "album": "Hit Me Hard and Soft",
+        "audio_url": "/static/audio/song_25.mp3"
+    },
+    {
+        "title": "Sorry",
+        "artist": "Justin Bieber",
+        "genre": "Pop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2015,
+        "album": "Purpose",
+        "audio_url": null
+    },
+    {
+        "title": "Ghost",
+        "artist": "Justin Bieber",
+        "genre": "Pop",
+        "mood": "Sad",
+        "language": "English",
+        "year": 2021,
+        "album": "Justice",
+        "audio_url": null
+    },
+    {
+        "title": "As It Was",
+        "artist": "Harry Styles",
+        "genre": "Pop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2022,
+        "album": "Harry's House",
+        "audio_url": null
+    },
+    {
+        "title": "Watermelon Sugar",
+        "artist": "Harry Styles",
+        "genre": "Pop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2019,
+        "album": "Fine Line",
+        "audio_url": null
+    },
+    {
+        "title": "Don't Start Now",
+        "artist": "Dua Lipa",
+        "genre": "Pop",
+        "mood": "Party",
+        "language": "English",
+        "year": 2019,
+        "album": "Future Nostalgia",
+        "audio_url": null
+    },
+    {
+        "title": "Bad Habits",
+        "artist": "Ed Sheeran",
+        "genre": "Pop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2021,
+        "album": "Equals",
+        "audio_url": null
+    },
+    {
+        "title": "Perfect",
+        "artist": "Ed Sheeran",
+        "genre": "Pop",
+        "mood": "Romantic",
+        "language": "English",
+        "year": 2017,
+        "album": "Divide",
+        "audio_url": null
+    },
+    {
+        "title": "Rolling in the Deep",
+        "artist": "Adele",
+        "genre": "Pop",
+        "mood": "Sad",
+        "language": "English",
+        "year": 2011,
+        "album": "21",
+        "audio_url": null
+    },
+    {
+        "title": "Someone Like You",
+        "artist": "Adele",
+        "genre": "Pop",
+        "mood": "Sad",
+        "language": "English",
+        "year": 2011,
+        "album": "21",
+        "audio_url": null
+    },
+    {
+        "title": "Drivers License",
+        "artist": "Olivia Rodrigo",
+        "genre": "Pop",
+        "mood": "Sad",
+        "language": "English",
+        "year": 2021,
+        "album": "Sour",
+        "audio_url": null
+    },
+    {
+        "title": "Good 4 U",
+        "artist": "Olivia Rodrigo",
+        "genre": "Pop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2021,
+        "album": "Sour",
+        "audio_url": null
+    },
+    {
+        "title": "Vampire",
+        "artist": "Olivia Rodrigo",
+        "genre": "Pop",
+        "mood": "Dark",
+        "language": "English",
+        "year": 2023,
+        "album": "Guts",
+        "audio_url": null
+    },
+    {
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "genre": "Rock",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 1975,
+        "album": "A Night at the Opera",
+        "audio_url": null
+    },
+    {
+        "title": "Another One Bites the Dust",
+        "artist": "Queen",
+        "genre": "Rock",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 1980,
+        "album": "The Game",
+        "audio_url": null
+    },
+    {
+        "title": "Hotel California",
+        "artist": "Eagles",
+        "genre": "Rock",
+        "mood": "Chill",
+        "language": "English",
+        "year": 1976,
+        "album": "Hotel California",
+        "audio_url": null
+    },
+    {
+        "title": "Stairway to Heaven",
+        "artist": "Led Zeppelin",
+        "genre": "Rock",
+        "mood": "Chill",
+        "language": "English",
+        "year": 1971,
+        "album": "Led Zeppelin IV",
+        "audio_url": null
+    },
+    {
+        "title": "Smells Like Teen Spirit",
+        "artist": "Nirvana",
+        "genre": "Rock",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 1991,
+        "album": "Nevermind",
+        "audio_url": null
+    },
+    {
+        "title": "Come As You Are",
+        "artist": "Nirvana",
+        "genre": "Rock",
+        "mood": "Dark",
+        "language": "English",
+        "year": 1991,
+        "album": "Nevermind",
+        "audio_url": null
+    },
+    {
+        "title": "Sweet Child O Mine",
+        "artist": "Guns N Roses",
+        "genre": "Rock",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 1987,
+        "album": "Appetite for Destruction",
+        "audio_url": null
+    },
+    {
+        "title": "Livin On a Prayer",
+        "artist": "Bon Jovi",
+        "genre": "Rock",
+        "mood": "Party",
+        "language": "English",
+        "year": 1986,
+        "album": "Slippery When Wet",
+        "audio_url": null
+    },
+    {
+        "title": "Mr. Brightside",
+        "artist": "The Killers",
+        "genre": "Rock",
+        "mood": "Party",
+        "language": "English",
+        "year": 2004,
+        "album": "Hot Fuss",
+        "audio_url": null
+    },
+    {
+        "title": "Do I Wanna Know?",
+        "artist": "The Arctic Monkeys",
+        "genre": "Indie Rock",
+        "mood": "Dark",
+        "language": "English",
+        "year": 2013,
+        "album": "AM",
+        "audio_url": null
+    },
+    {
+        "title": "R U Mine?",
+        "artist": "The Arctic Monkeys",
+        "genre": "Indie Rock",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2013,
+        "album": "AM",
+        "audio_url": null
+    },
+    {
+        "title": "505",
+        "artist": "The Arctic Monkeys",
+        "genre": "Indie Rock",
+        "mood": "Sad",
+        "language": "English",
+        "year": 2007,
+        "album": "Favourite Worst Nightmare",
+        "audio_url": null
+    },
+    {
+        "title": "Take Me To Church",
+        "artist": "Hozier",
+        "genre": "Indie Rock",
+        "mood": "Dark",
+        "language": "English",
+        "year": 2013,
+        "album": "Hozier",
+        "audio_url": null
+    },
+    {
+        "title": "Too Sweet",
+        "artist": "Hozier",
+        "genre": "Indie Rock",
+        "mood": "Chill",
+        "language": "English",
+        "year": 2024,
+        "album": "Unheard",
+        "audio_url": null
+    },
+    {
+        "title": "Sweater Weather",
+        "artist": "The Neighbourhood",
+        "genre": "Indie Pop",
+        "mood": "Chill",
+        "language": "English",
+        "year": 2013,
+        "album": "I Love You.",
+        "audio_url": null
+    },
+    {
+        "title": "Riptide",
+        "artist": "Vance Joy",
+        "genre": "Indie Pop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2013,
+        "album": "Dream Your Life Away",
+        "audio_url": null
+    },
+    {
+        "title": "Pumped Up Kicks",
+        "artist": "Foster the People",
+        "genre": "Indie Pop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2011,
+        "album": "Torches",
+        "audio_url": null
+    },
+    {
+        "title": "Lost",
+        "artist": "Linkin Park",
+        "genre": "Rock",
+        "mood": "Sad",
+        "language": "English",
+        "year": 2023,
+        "album": "Meteora 20",
+        "audio_url": null
+    },
+    {
+        "title": "In the End",
+        "artist": "Linkin Park",
+        "genre": "Rock",
+        "mood": "Dark",
+        "language": "English",
+        "year": 2000,
+        "album": "Hybrid Theory",
+        "audio_url": null
+    },
+    {
+        "title": "Numb",
+        "artist": "Linkin Park",
+        "genre": "Rock",
+        "mood": "Dark",
+        "language": "English",
+        "year": 2003,
+        "album": "Meteora",
+        "audio_url": null
+    },
+    {
+        "title": "Lose Yourself",
+        "artist": "Eminem",
+        "genre": "Hip-Hop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2002,
+        "album": "8 Mile",
+        "audio_url": null
+    },
+    {
+        "title": "Without Me",
+        "artist": "Eminem",
+        "genre": "Hip-Hop",
+        "mood": "Party",
+        "language": "English",
+        "year": 2002,
+        "album": "The Eminem Show",
+        "audio_url": null
+    },
+    {
+        "title": "HUMBLE.",
+        "artist": "Kendrick Lamar",
+        "genre": "Hip-Hop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2017,
+        "album": "DAMN.",
+        "audio_url": null
+    },
+    {
+        "title": "Alright",
+        "artist": "Kendrick Lamar",
+        "genre": "Hip-Hop",
+        "mood": "Focus",
+        "language": "English",
+        "year": 2015,
+        "album": "To Pimp a Butterfly",
+        "audio_url": null
+    },
+    {
+        "title": "Not Like Us",
+        "artist": "Kendrick Lamar",
+        "genre": "Hip-Hop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2024,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "SICKO MODE",
+        "artist": "Travis Scott",
+        "genre": "Hip-Hop",
+        "mood": "Party",
+        "language": "English",
+        "year": 2018,
+        "album": "ASTROWORLD",
+        "audio_url": null
+    },
+    {
+        "title": "Goosebumps",
+        "artist": "Travis Scott",
+        "genre": "Hip-Hop",
+        "mood": "Party",
+        "language": "English",
+        "year": 2016,
+        "album": "Birds in the Trap",
+        "audio_url": null
+    },
+    {
+        "title": "Gods Plan",
+        "artist": "Drake",
+        "genre": "Hip-Hop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2018,
+        "album": "Scorpion",
+        "audio_url": null
+    },
+    {
+        "title": "Hotline Bling",
+        "artist": "Drake",
+        "genre": "Hip-Hop",
+        "mood": "Chill",
+        "language": "English",
+        "year": 2015,
+        "album": "Views",
+        "audio_url": null
+    },
+    {
+        "title": "One Dance",
+        "artist": "Drake",
+        "genre": "Hip-Hop",
+        "mood": "Party",
+        "language": "English",
+        "year": 2016,
+        "album": "Views",
+        "audio_url": null
+    },
+    {
+        "title": "Rockstar",
+        "artist": "Post Malone",
+        "genre": "Hip-Hop",
+        "mood": "Dark",
+        "language": "English",
+        "year": 2017,
+        "album": "Beerbongs & Bentleys",
+        "audio_url": null
+    },
+    {
+        "title": "Sunflower",
+        "artist": "Post Malone & Swae Lee",
+        "genre": "Hip-Hop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 2018,
+        "album": "Spider-Man: Into the Spider-Verse",
+        "audio_url": null
+    },
+    {
+        "title": "Circles",
+        "artist": "Post Malone",
+        "genre": "Pop",
+        "mood": "Chill",
+        "language": "English",
+        "year": 2019,
+        "album": "Hollywood's Bleeding",
+        "audio_url": null
+    },
+    {
+        "title": "Lucid Dreams",
+        "artist": "Juice WRLD",
+        "genre": "Hip-Hop",
+        "mood": "Sad",
+        "language": "English",
+        "year": 2018,
+        "album": "Goodbye & Good Riddance",
+        "audio_url": null
+    },
+    {
+        "title": "Sad!",
+        "artist": "XXXTENTACION",
+        "genre": "Hip-Hop",
+        "mood": "Sad",
+        "language": "English",
+        "year": 2018,
+        "album": "?",
+        "audio_url": null
+    },
+    {
+        "title": "N.Y. State of Mind",
+        "artist": "Nas",
+        "genre": "Hip-Hop",
+        "mood": "Focus",
+        "language": "English",
+        "year": 1994,
+        "album": "Illmatic",
+        "audio_url": null
+    },
+    {
+        "title": "Juicy",
+        "artist": "The Notorious B.I.G.",
+        "genre": "Hip-Hop",
+        "mood": "Happy",
+        "language": "English",
+        "year": 1994,
+        "album": "Ready to Die",
+        "audio_url": null
+    },
+    {
+        "title": "California Love",
+        "artist": "2Pac",
+        "genre": "Hip-Hop",
+        "mood": "Party",
+        "language": "English",
+        "year": 1996,
+        "album": "All Eyez on Me",
+        "audio_url": null
+    },
+    {
+        "title": "All of the Lights",
+        "artist": "Kanye West",
+        "genre": "Hip-Hop",
+        "mood": "Party",
+        "language": "English",
+        "year": 2010,
+        "album": "My Beautiful Dark Twisted Fantasy",
+        "audio_url": null
+    },
+    {
+        "title": "Stronger",
+        "artist": "Kanye West",
+        "genre": "Hip-Hop",
+        "mood": "Energetic",
+        "language": "English",
+        "year": 2007,
+        "album": "Graduation",
+        "audio_url": null
+    },
+    {
+        "title": "Despacito",
+        "artist": "Luis Fonsi & Daddy Yankee",
+        "genre": "Latin Pop",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2017,
+        "album": "Vida",
+        "audio_url": null
+    },
+    {
+        "title": "Mi Gente",
+        "artist": "J Balvin & Willy William",
+        "genre": "Reggaeton",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2017,
+        "album": "Vibras",
+        "audio_url": null
+    },
+    {
+        "title": "Dákiti",
+        "artist": "Bad Bunny & Jhay Cortez",
+        "genre": "Reggaeton",
+        "mood": "Chill",
+        "language": "Spanish",
+        "year": 2020,
+        "album": "El Último Tour Del Mundo",
+        "audio_url": null
+    },
+    {
+        "title": "Monaco",
+        "artist": "Bad Bunny",
+        "genre": "Trap",
+        "mood": "Energetic",
+        "language": "Spanish",
+        "year": 2023,
+        "album": "Nadie Sabe Lo Que Va A Pasar Mañana",
+        "audio_url": null
+    },
+    {
+        "title": "Titi Me Pregunto",
+        "artist": "Bad Bunny",
+        "genre": "Reggaeton",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2022,
+        "album": "Un Verano Sin Ti",
+        "audio_url": null
+    },
+    {
+        "title": "La Bachata",
+        "artist": "Manuel Turizo",
+        "genre": "Bachata",
+        "mood": "Happy",
+        "language": "Spanish",
+        "year": 2022,
+        "album": "2000",
+        "audio_url": null
+    },
+    {
+        "title": "Beso",
+        "artist": "Rosalia & Rauw Alejandro",
+        "genre": "Latin Pop",
+        "mood": "Romantic",
+        "language": "Spanish",
+        "year": 2023,
+        "album": "RR",
+        "audio_url": null
+    },
+    {
+        "title": "Con Calma",
+        "artist": "Daddy Yankee",
+        "genre": "Reggaeton",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2019,
+        "album": "Con Calma",
+        "audio_url": null
+    },
+    {
+        "title": "Pepas",
+        "artist": "Farruko",
+        "genre": "Latin Dance",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2021,
+        "album": "La 167",
+        "audio_url": null
+    },
+    {
+        "title": "Hawai",
+        "artist": "Maluma",
+        "genre": "Reggaeton",
+        "mood": "Sad",
+        "language": "Spanish",
+        "year": 2020,
+        "album": "Papi Juancho",
+        "audio_url": null
+    },
+    {
+        "title": "Provenza",
+        "artist": "Karol G",
+        "genre": "Reggaeton",
+        "mood": "Chill",
+        "language": "Spanish",
+        "year": 2022,
+        "album": "Mañana Será Bonito",
+        "audio_url": null
+    },
+    {
+        "title": "Qlona",
+        "artist": "Karol G & Peso Pluma",
+        "genre": "Reggaeton",
+        "mood": "Chill",
+        "language": "Spanish",
+        "year": 2023,
+        "album": "Mañana Será Bonito (Bichota Season)",
+        "audio_url": null
+    },
+    {
+        "title": "Ella Baila Sola",
+        "artist": "Eslabon Armado & Peso Pluma",
+        "genre": "Corridos",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2023,
+        "album": "Desvelado",
+        "audio_url": null
+    },
+    {
+        "title": "Chantaje",
+        "artist": "Shakira & Maluma",
+        "genre": "Latin Pop",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2016,
+        "album": "El Dorado",
+        "audio_url": null
+    },
+    {
+        "title": "Hips Don't Lie",
+        "artist": "Shakira",
+        "genre": "Latin Pop",
+        "mood": "Party",
+        "language": "English/Spanish",
+        "year": 2005,
+        "album": "Oral Fixation, Vol. 2",
+        "audio_url": null
+    },
+    {
+        "title": "Bailando",
+        "artist": "Enrique Iglesias",
+        "genre": "Latin Pop",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2014,
+        "album": "Sex and Love",
+        "audio_url": null
+    },
+    {
+        "title": "Danza Kuduro",
+        "artist": "Don Omar",
+        "genre": "Reggaeton",
+        "mood": "Party",
+        "language": "Spanish/Portuguese",
+        "year": 2010,
+        "album": "Meet the Orphans",
+        "audio_url": null
+    },
+    {
+        "title": "Safaera",
+        "artist": "Bad Bunny",
+        "genre": "Reggaeton",
+        "mood": "Party",
+        "language": "Spanish",
+        "year": 2020,
+        "album": "YHLQMDLG",
+        "audio_url": null
+    },
+    {
+        "title": "Tum Hi Aana",
+        "artist": "Jubin Nautiyal",
+        "genre": "Romantic",
+        "mood": "Sad",
+        "language": "Hindi",
+        "year": 2019,
+        "album": "Marjaavaan",
+        "audio_url": null
+    },
+    {
+        "title": "Dil Diyan Gallan",
+        "artist": "Atif Aslam",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2017,
+        "album": "Tiger Zinda Hai",
+        "audio_url": null
+    },
+    {
+        "title": "Channa Mereya",
+        "artist": "Arijit Singh",
+        "genre": "Romantic",
+        "mood": "Sad",
+        "language": "Hindi",
+        "year": 2016,
+        "album": "Ae Dil Hai Mushkil",
+        "audio_url": null
+    },
+    {
+        "title": "Ae Dil Hai Mushkil",
+        "artist": "Arijit Singh",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2016,
+        "album": "Ae Dil Hai Mushkil",
+        "audio_url": null
+    },
+    {
+        "title": "Kabira",
+        "artist": "Tochi Raina & Rekha Bhardwaj",
+        "genre": "Bollywood",
+        "mood": "Chill",
+        "language": "Hindi",
+        "year": 2013,
+        "album": "Yeh Jawaani Hai Deewani",
+        "audio_url": null
+    },
+    {
+        "title": "Ilahi",
+        "artist": "Arijit Singh",
+        "genre": "Bollywood",
+        "mood": "Happy",
+        "language": "Hindi",
+        "year": 2013,
+        "album": "Yeh Jawaani Hai Deewani",
+        "audio_url": null
+    },
+    {
+        "title": "Subhanallah",
+        "artist": "Sreerama Chandra",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2013,
+        "album": "Yeh Jawaani Hai Deewani",
+        "audio_url": null
+    },
+    {
+        "title": "Ghar More Pardesiya",
+        "artist": "Shreya Ghoshal",
+        "genre": "Classical Pop",
+        "mood": "Focus",
+        "language": "Hindi",
+        "year": 2019,
+        "album": "Kalank",
+        "audio_url": null
+    },
+    {
+        "title": "Agar Tum Saath Ho",
+        "artist": "Arijit Singh & Alka Yagnik",
+        "genre": "Romantic",
+        "mood": "Sad",
+        "language": "Hindi",
+        "year": 2015,
+        "album": "Tamasha",
+        "audio_url": null
+    },
+    {
+        "title": "Heeriye",
+        "artist": "Jasleen Royal & Arijit Singh",
+        "genre": "Pop",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2023,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Ve Kamleya",
+        "artist": "Arijit Singh & Shreya Ghoshal",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2023,
+        "album": "Rocky Aur Rani Kii Prem Kahaani",
+        "audio_url": null
+    },
+    {
+        "title": "Zaalima",
+        "artist": "Arijit Singh & Harshdeep Kaur",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2017,
+        "album": "Raees",
+        "audio_url": null
+    },
+    {
+        "title": "Nashe Si Chadh Gayi",
+        "artist": "Arijit Singh",
+        "genre": "Bollywood",
+        "mood": "Party",
+        "language": "Hindi",
+        "year": 2016,
+        "album": "Befikre",
+        "audio_url": null
+    },
+    {
+        "title": "Ghungroo",
+        "artist": "Arijit Singh & Shilpa Rao",
+        "genre": "Bollywood",
+        "mood": "Party",
+        "language": "Hindi",
+        "year": 2019,
+        "album": "War",
+        "audio_url": null
+    },
+    {
+        "title": "Besharam Rang",
+        "artist": "Shilpa Rao & Caralisa Monteiro",
+        "genre": "Bollywood",
+        "mood": "Party",
+        "language": "Hindi",
+        "year": 2022,
+        "album": "Pathaan",
+        "audio_url": null
+    },
+    {
+        "title": "Tera Ban Jaunga",
+        "artist": "Akhil Sachdeva & Tulsi Kumar",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2019,
+        "album": "Kabir Singh",
+        "audio_url": null
+    },
+    {
+        "title": "Bekhayali",
+        "artist": "Sachet Tandon",
+        "genre": "Bollywood",
+        "mood": "Sad",
+        "language": "Hindi",
+        "year": 2019,
+        "album": "Kabir Singh",
+        "audio_url": null
+    },
+    {
+        "title": "Tujhe Kitna Chahne Lage",
+        "artist": "Arijit Singh",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2019,
+        "album": "Kabir Singh",
+        "audio_url": null
+    },
+    {
+        "title": "Pehle Bhi Main",
+        "artist": "Vishal Mishra",
+        "genre": "Romantic",
+        "mood": "Chill",
+        "language": "Hindi",
+        "year": 2023,
+        "album": "Animal",
+        "audio_url": null
+    },
+    {
+        "title": "Satranga",
+        "artist": "Arijit Singh",
+        "genre": "Romantic",
+        "mood": "Sad",
+        "language": "Hindi",
+        "year": 2023,
+        "album": "Animal",
+        "audio_url": null
+    },
+    {
+        "title": "Hua Main",
+        "artist": "Raghav Chaitanya",
+        "genre": "Rock Pop",
+        "mood": "Energetic",
+        "language": "Hindi",
+        "year": 2023,
+        "album": "Animal",
+        "audio_url": null
+    },
+    {
+        "title": "Kaun Tujhe",
+        "artist": "Palak Muchhal",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2016,
+        "album": "M.S. Dhoni",
+        "audio_url": null
+    },
+    {
+        "title": "Phir Kabhi",
+        "artist": "Arijit Singh",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2016,
+        "album": "M.S. Dhoni",
+        "audio_url": null
+    },
+    {
+        "title": "Mast Magan",
+        "artist": "Arijit Singh",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2014,
+        "album": "2 States",
+        "audio_url": null
+    },
+    {
+        "title": "Jeena Jeena",
+        "artist": "Atif Aslam",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2015,
+        "album": "Badlapur",
+        "audio_url": null
+    },
+    {
+        "title": "Kal Ho Naa Ho",
+        "artist": "Sonu Nigam",
+        "genre": "Romantic",
+        "mood": "Sad",
+        "language": "Hindi",
+        "year": 2003,
+        "album": "Kal Ho Naa Ho",
+        "audio_url": null
+    },
+    {
+        "title": "Maahi",
+        "artist": "Toshi Sabri",
+        "genre": "Romantic",
+        "mood": "Sad",
+        "language": "Hindi",
+        "year": 2009,
+        "album": "Raaz 2",
+        "audio_url": null
+    },
+    {
+        "title": "Pee Loon",
+        "artist": "Mohit Chauhan",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2010,
+        "album": "Once Upon A Time In Mumbaai",
+        "audio_url": null
+    },
+    {
+        "title": "Kun Faya Kun",
+        "artist": "A.R. Rahman, Javed Ali & Mohit Chauhan",
+        "genre": "Sufi",
+        "mood": "Focus",
+        "language": "Hindi",
+        "year": 2011,
+        "album": "Rockstar",
+        "audio_url": null
+    },
+    {
+        "title": "Nadaan Parindey",
+        "artist": "A.R. Rahman & Mohit Chauhan",
+        "genre": "Rock",
+        "mood": "Energetic",
+        "language": "Hindi",
+        "year": 2011,
+        "album": "Rockstar",
+        "audio_url": null
+    },
+    {
+        "title": "Sadda Haq",
+        "artist": "Mohit Chauhan",
+        "genre": "Rock",
+        "mood": "Energetic",
+        "language": "Hindi",
+        "year": 2011,
+        "album": "Rockstar",
+        "audio_url": null
+    },
+    {
+        "title": "Tum Se Hi",
+        "artist": "Mohit Chauhan",
+        "genre": "Romantic",
+        "mood": "Happy",
+        "language": "Hindi",
+        "year": 2007,
+        "album": "Jab We Met",
+        "audio_url": null
+    },
+    {
+        "title": "Jab Tak",
+        "artist": "Armaan Malik",
+        "genre": "Romantic",
+        "mood": "Romantic",
+        "language": "Hindi",
+        "year": 2016,
+        "album": "M.S. Dhoni",
+        "audio_url": null
+    },
+    {
+        "title": "Brown Munde",
+        "artist": "AP Dhillon, Gurinder Gill & Shinda Kahlon",
+        "genre": "Punjabi Pop",
+        "mood": "Energetic",
+        "language": "Punjabi",
+        "year": 2020,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Excuses",
+        "artist": "AP Dhillon & Gurinder Gill",
+        "genre": "Punjabi Pop",
+        "mood": "Chill",
+        "language": "Punjabi",
+        "year": 2020,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Summer High",
+        "artist": "AP Dhillon",
+        "genre": "Punjabi Pop",
+        "mood": "Party",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "With You",
+        "artist": "AP Dhillon",
+        "genre": "Punjabi Pop",
+        "mood": "Romantic",
+        "language": "Punjabi",
+        "year": 2023,
+        "album": "Two",
+        "audio_url": null
+    },
+    {
+        "title": "Sidhu Moose Wala Tribute",
+        "artist": "Sidhu Moose Wala",
+        "genre": "Punjabi Rap",
+        "mood": "Energetic",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Moosetape",
+        "audio_url": null
+    },
+    {
+        "title": "295",
+        "artist": "Sidhu Moose Wala",
+        "genre": "Punjabi Rap",
+        "mood": "Dark",
+        "language": "Punjabi",
+        "year": 2021,
+        "album": "Moosetape",
+        "audio_url": null
+    },
+    {
+        "title": "The Last Ride",
+        "artist": "Sidhu Moose Wala",
+        "genre": "Punjabi Rap",
+        "mood": "Dark",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Levels",
+        "artist": "Sidhu Moose Wala",
+        "genre": "Punjabi Rap",
+        "mood": "Energetic",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Legend",
+        "artist": "Sidhu Moose Wala",
+        "genre": "Punjabi Rap",
+        "mood": "Energetic",
+        "language": "Punjabi",
+        "year": 2019,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Sohne Lagde",
+        "artist": "Sidhu Moose Wala",
+        "genre": "Punjabi Rap",
+        "mood": "Chill",
+        "language": "Punjabi",
+        "year": 2019,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Softly",
+        "artist": "Karan Aujla",
+        "genre": "Punjabi Pop",
+        "mood": "Party",
+        "language": "Punjabi",
+        "year": 2023,
+        "album": "Making Memories",
+        "audio_url": null
+    },
+    {
+        "title": "Admirin You",
+        "artist": "Karan Aujla",
+        "genre": "Punjabi Pop",
+        "mood": "Chill",
+        "language": "Punjabi",
+        "year": 2023,
+        "album": "Making Memories",
+        "audio_url": null
+    },
+    {
+        "title": "White Brown Black",
+        "artist": "Avvy Sra & Karan Aujla",
+        "genre": "Punjabi Pop",
+        "mood": "Party",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Players",
+        "artist": "Badshah & Karan Aujla",
+        "genre": "Punjabi Pop",
+        "mood": "Party",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "52 Bars",
+        "artist": "Karan Aujla",
+        "genre": "Punjabi Rap",
+        "mood": "Energetic",
+        "language": "Punjabi",
+        "year": 2023,
+        "album": "Four You",
+        "audio_url": null
+    },
+    {
+        "title": "Elevated",
+        "artist": "Shubh",
+        "genre": "Punjabi Rap",
+        "mood": "Chill",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "We Rollin",
+        "artist": "Shubh",
+        "genre": "Punjabi Rap",
+        "mood": "Energetic",
+        "language": "Punjabi",
+        "year": 2021,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "No Love",
+        "artist": "Shubh",
+        "genre": "Punjabi Rap",
+        "mood": "Sad",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Cheques",
+        "artist": "Shubh",
+        "genre": "Punjabi Rap",
+        "mood": "Energetic",
+        "language": "Punjabi",
+        "year": 2023,
+        "album": "Still Rollin",
+        "audio_url": null
+    },
+    {
+        "title": "One Love",
+        "artist": "Shubh",
+        "genre": "Punjabi Rap",
+        "mood": "Chill",
+        "language": "Punjabi",
+        "year": 2023,
+        "album": "Still Rollin",
+        "audio_url": null
+    },
+    {
+        "title": "Lover",
+        "artist": "Diljit Dosanjh",
+        "genre": "Punjabi Pop",
+        "mood": "Happy",
+        "language": "Punjabi",
+        "year": 2021,
+        "album": "MoonChild Era",
+        "audio_url": null
+    },
+    {
+        "title": "Lemonade",
+        "artist": "Diljit Dosanjh",
+        "genre": "Punjabi Pop",
+        "mood": "Happy",
+        "language": "Punjabi",
+        "year": 2022,
+        "album": "Drive Thru",
+        "audio_url": null
+    },
+    {
+        "title": "Proper Patola",
+        "artist": "Diljit Dosanjh & Badshah",
+        "genre": "Punjabi Pop",
+        "mood": "Party",
+        "language": "Punjabi",
+        "year": 2018,
+        "album": "Namaste England",
+        "audio_url": null
+    },
+    {
+        "title": "Do You Know",
+        "artist": "Diljit Dosanjh",
+        "genre": "Punjabi Pop",
+        "mood": "Romantic",
+        "language": "Punjabi",
+        "year": 2016,
+        "album": "El Sueño",
+        "audio_url": null
+    },
+    {
+        "title": "Born to Shine",
+        "artist": "Diljit Dosanjh",
+        "genre": "Punjabi Pop",
+        "mood": "Party",
+        "language": "Punjabi",
+        "year": 2020,
+        "album": "G.O.A.T.",
+        "audio_url": null
+    },
+    {
+        "title": "Butter",
+        "artist": "BTS",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2021,
+        "album": "Butter",
+        "audio_url": null
+    },
+    {
+        "title": "Boy With Luv",
+        "artist": "BTS & Halsey",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2019,
+        "album": "Map of the Soul: Persona",
+        "audio_url": null
+    },
+    {
+        "title": "Fake Love",
+        "artist": "BTS",
+        "genre": "K-Pop",
+        "mood": "Sad",
+        "language": "Korean",
+        "year": 2018,
+        "album": "Love Yourself: Tear",
+        "audio_url": null
+    },
+    {
+        "title": "DNA",
+        "artist": "BTS",
+        "genre": "K-Pop",
+        "mood": "Energetic",
+        "language": "Korean",
+        "year": 2017,
+        "album": "Love Yourself: Her",
+        "audio_url": null
+    },
+    {
+        "title": "Spring Day",
+        "artist": "BTS",
+        "genre": "K-Pop",
+        "mood": "Sad",
+        "language": "Korean",
+        "year": 2017,
+        "album": "You Never Walk Alone",
+        "audio_url": null
+    },
+    {
+        "title": "How You Like That",
+        "artist": "BLACKPINK",
+        "genre": "K-Pop",
+        "mood": "Energetic",
+        "language": "Korean",
+        "year": 2020,
+        "album": "The Album",
+        "audio_url": null
+    },
+    {
+        "title": "DDU-DU DDU-DU",
+        "artist": "BLACKPINK",
+        "genre": "K-Pop",
+        "mood": "Energetic",
+        "language": "Korean",
+        "year": 2018,
+        "album": "Square Up",
+        "audio_url": null
+    },
+    {
+        "title": "Kill This Love",
+        "artist": "BLACKPINK",
+        "genre": "K-Pop",
+        "mood": "Energetic",
+        "language": "Korean",
+        "year": 2019,
+        "album": "Kill This Love",
+        "audio_url": null
+    },
+    {
+        "title": "Pink Venom",
+        "artist": "BLACKPINK",
+        "genre": "K-Pop",
+        "mood": "Party",
+        "language": "Korean",
+        "year": 2022,
+        "album": "Born Pink",
+        "audio_url": null
+    },
+    {
+        "title": "As If It's Your Last",
+        "artist": "BLACKPINK",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2017,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "Hype Boy",
+        "artist": "NewJeans",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2022,
+        "album": "New Jeans",
+        "audio_url": null
+    },
+    {
+        "title": "Ditto",
+        "artist": "NewJeans",
+        "genre": "K-Pop",
+        "mood": "Chill",
+        "language": "Korean",
+        "year": 2022,
+        "album": "Single",
+        "audio_url": null
+    },
+    {
+        "title": "OMG",
+        "artist": "NewJeans",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2023,
+        "album": "OMG",
+        "audio_url": null
+    },
+    {
+        "title": "Super Shy",
+        "artist": "NewJeans",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2023,
+        "album": "Get Up",
+        "audio_url": null
+    },
+    {
+        "title": "Love Dive",
+        "artist": "IVE",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2022,
+        "album": "Love Dive",
+        "audio_url": null
+    },
+    {
+        "title": "I AM",
+        "artist": "IVE",
+        "genre": "K-Pop",
+        "mood": "Energetic",
+        "language": "Korean",
+        "year": 2023,
+        "album": "I've IVE",
+        "audio_url": null
+    },
+    {
+        "title": "Cupid",
+        "artist": "FIFTY FIFTY",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2023,
+        "album": "The Beginning: Cupid",
+        "audio_url": null
+    },
+    {
+        "title": "Seven",
+        "artist": "Jungkook & Latto",
+        "genre": "K-Pop/Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2023,
+        "album": "Golden",
+        "audio_url": null
+    },
+    {
+        "title": "3D",
+        "artist": "Jungkook & Jack Harlow",
+        "genre": "K-Pop/Pop",
+        "mood": "Energetic",
+        "language": "Korean",
+        "year": 2023,
+        "album": "Golden",
+        "audio_url": null
+    },
+    {
+        "title": "Likey",
+        "artist": "TWICE",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2017,
+        "album": "Twicetagram",
+        "audio_url": null
+    },
+    {
+        "title": "Fancy",
+        "artist": "TWICE",
+        "genre": "K-Pop",
+        "mood": "Happy",
+        "language": "Korean",
+        "year": 2019,
+        "album": "Fancy You",
+        "audio_url": null
+    },
+    {
+        "title": "God's Menu",
+        "artist": "Stray Kids",
+        "genre": "K-Pop",
+        "mood": "Energetic",
+        "language": "Korean",
+        "year": 2020,
+        "album": "Go Live",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 1",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 1",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 2",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 1",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 3",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 1",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 4",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 1",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 5",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 1",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 6",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 1",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 7",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 1",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 8",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 1",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 9",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 1",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 10",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 11",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 12",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 13",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 14",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 15",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 16",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 17",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 18",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 19",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 2",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 20",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 21",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 22",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 23",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 24",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 25",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 26",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 27",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 28",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 29",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 3",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 30",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 31",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 32",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 33",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 34",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 35",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 36",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 37",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 38",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 39",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 4",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 40",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 41",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 42",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 43",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 44",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 45",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 46",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 47",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 48",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 49",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 5",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 50",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 51",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 52",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 53",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 54",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 55",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 56",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 57",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 58",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 59",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 6",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 60",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 61",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 62",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 63",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 64",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 65",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 66",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 67",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 68",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 69",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 7",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 70",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 71",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 72",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 73",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 74",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 75",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 76",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 77",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 78",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 79",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 8",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 80",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 81",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 82",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 83",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 84",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 85",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 86",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 87",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 88",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 89",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 9",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 90",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 91",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 92",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 93",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 94",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 95",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 96",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 97",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 98",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 99",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 10",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 100",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 101",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 102",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 103",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 104",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 105",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 106",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 107",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 108",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 109",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 11",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 110",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 111",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 112",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 113",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 114",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 115",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 116",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 117",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 118",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 119",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 12",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 120",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 121",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 122",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 123",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 124",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 125",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 126",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 127",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 128",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 129",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 13",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 130",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 131",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 132",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 133",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 134",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 135",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 136",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 137",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 138",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 139",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 14",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 140",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 141",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 142",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 143",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 144",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 145",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2020,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 146",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2021,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 147",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2022,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 148",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2023,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    },
+    {
+        "title": "Lofi Study Beats Vol 149",
+        "artist": "Lofi Generator",
+        "genre": "Lofi / Instrumental",
+        "mood": "Focus",
+        "language": "Instrumental",
+        "year": 2024,
+        "album": "Chill Focus Vol 15",
+        "audio_url": null
+    }
+]

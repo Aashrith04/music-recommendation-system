@@ -1,0 +1,134 @@
+# Phase 2: PostgreSQL Database Integration
+
+This implementation plan outlines the transition of the music recommendation system's backend from an in-memory Python list to a persistent PostgreSQL database using SQLAlchemy ORM and FastAPI.
+
+## User Review Required
+
+> [!IMPORTANT]
+> **PostgreSQL Installation Required**: You will need a PostgreSQL database instance running.
+> Before starting the execution, please decide whether you want to:
+> 1. Install and run PostgreSQL locally on your Windows machine.
+> 2. Run PostgreSQL using Docker.
+> 3. Use a hosted cloud PostgreSQL service (e.g., Supabase, Neon, or Aiven).
+>
+> We will need your connection details (host, port, database name, username, and password) to set up the `.env` file.
+
+## 1. Architecture
+
+The updated architecture will transition from stateful in-memory storage to a classic three-tier architecture:
+
+```mermaid
+graph TD
+    Client[React Frontend <br> localhost:5173] -->|HTTP Requests| API[FastAPI Backend <br> localhost:8000]
+    
+    subgraph FastAPI Backend
+        Router[API Endpoints <br> main.py] -->|Dependency Injection| DB_Session[Database Session <br> get_db]
+        DB_Session -->|ORM Queries| Models[SQLAlchemy Models <br> models.py]
+        Models -->|Validation/Serialization| Schemas[Pydantic Schemas <br> schemas.py]
+    end
+    
+    DB_Session -->|Driver: psycopg2| PostgreSQL[(PostgreSQL Database)]
+    Config[.env File] -.->|Environment Config| API
+```
+
+### Key Components
+* **React Frontend**: Makes HTTP requests to the backend endpoints.
+* **FastAPI Backend (main.py)**: Exposes API routes and uses FastAPI's `Depends` to inject database sessions into path operations.
+* **Pydantic Schemas (schemas.py)**: Handles request validation (e.g., creating a song) and response serialization (e.g., returning database objects as JSON).
+* **SQLAlchemy Models (models.py)**: Maps Python objects to database tables.
+* **SQLAlchemy Engine & Session (database.py)**: Manages connection pools and database sessions.
+* **PostgreSQL Database**: The relational database management system storing our persistent data.
+* **Dotenv (.env)**: Stores secrets and configurations (database URL) securely and out of the source code.
+
+---
+
+## 2. Database Schema
+
+For Phase 2, we will introduce a single relational table representing our song library.
+
+### Table: `songs`
+
+| Column Name | Data Type | Constraints | Description |
+| :--- | :--- | :--- | :--- |
+| `id` | `INTEGER` | Primary Key, Auto-Increment (SERIAL) | Unique identifier for each song |
+| `title` | `VARCHAR(255)` | NOT NULL | The title of the song |
+| `artist` | `VARCHAR(255)` | NOT NULL | The artist who performed the song |
+| `genre` | `VARCHAR(100)` | NOT NULL | The genre of the song |
+| `created_at` | `TIMESTAMP` | NOT NULL, DEFAULT `CURRENT_TIMESTAMP` | The timestamp when the song record was created |
+
+---
+
+## 3. API Design
+
+We will transition the current endpoints and expand them to cover full CRUD (Create, Read, Update, Delete) capability.
+
+### Endpoints Reference
+
+| Method | Endpoint | Description | Request Body | Response Status & Body |
+| :--- | :--- | :--- | :--- | :--- |
+| **GET** | `/songs` | Get all songs | None | `200 OK` <br> List of Song objects |
+| **POST** | `/songs` | Create a new song | `{ "title": "string", "artist": "string", "genre": "string" }` | `201 Created` <br> Created Song object (with ID) |
+| **GET** | `/songs/{id}` | Get a single song | None | `200 OK` -> Song object <br> `404 Not Found` -> Error detail |
+| **PUT** | `/songs/{id}` | Update a song | `{ "title": "string", "artist": "string", "genre": "string" }` | `200 OK` -> Updated Song object <br> `404 Not Found` -> Error detail |
+| **DELETE** | `/songs/{id}` | Delete a song | None | `200 OK` -> `{ "message": "Song deleted successfully" }` <br> `404 Not Found` -> Error detail |
+
+---
+
+## 4. Migration Plan
+
+Currently, the 15 starter songs are stored in a static Python list inside [main.py](file:///c:/Users/Aashrith/OneDrive/Aashrith/Webs/music-recommendation-system/backend/main.py).
+
+### Migration Steps:
+1. **Define Schema & Models**: Create SQLAlchemy models equivalent to the Pydantic schemas from Phase 1.
+2. **Database Initialization & Seeding Script**:
+   * Create a script (e.g., `init_db.py`) that will run automatically or via command line.
+   * This script will connect to the PostgreSQL instance.
+   * It will create the `songs` table if it does not already exist.
+   * It will check if the `songs` table is empty. If it is, the script will insert the initial 15 songs (e.g., "Kesariya", "Blinding Lights", etc.) into the database, preserving the Phase 1 seed data.
+3. **Refactor Routes**: Refactor [main.py](file:///c:/Users/Aashrith/OneDrive/Aashrith/Webs/music-recommendation-system/backend/main.py) to remove the hardcoded `SONGS_DATABASE` array and query the database via SQLAlchemy instead.
+
+---
+
+## 5. Development Roadmap
+
+We will complete Phase 2 in a structured, step-by-step manner:
+
+### Step 1: Environment & Dependencies Setup
+* Add `sqlalchemy`, `psycopg2-binary`, and `python-dotenv` to [requirements.txt](file:///c:/Users/Aashrith/OneDrive/Aashrith/Webs/music-recommendation-system/backend/requirements.txt).
+* Install the updated dependencies in the virtual environment.
+* Create a `.env` file in the `backend/` directory to store the database credentials:
+  ```env
+  DATABASE_URL=postgresql://<username>:<password>@<host>:<port>/<database_name>
+  ```
+
+### Step 2: Connection & ORM Definition
+* Create `database.py`: Set up the SQLAlchemy connection engine, session maker, and the declarative base.
+* Create `models.py`: Define the `Song` database model mapping to the `songs` table.
+* Create `schemas.py`: Define Pydantic models for data validation:
+  * `SongBase`: Fields common to all schemas (`title`, `artist`, `genre`).
+  * `SongCreate`: Used for incoming creation requests (doesn't contain `id`).
+  * `Song`: The complete representation returned to clients (includes `id` and `created_at`).
+
+### Step 3: Initialization & Seeding
+* Create `init_db.py` to handle table creation and populate the database with the initial 15 songs.
+* Verify this script runs successfully and creates/seeds the database.
+
+### Step 4: Endpoint Refactoring
+* Implement the database session dependency `get_db()` inside `main.py`.
+* Update `/songs` `GET` endpoint to retrieve data from PostgreSQL.
+* Implement the new endpoints (`POST`, `GET /{id}`, `PUT /{id}`, `DELETE /{id}`).
+
+---
+
+## Verification Plan
+
+### Automated/Tool Verification
+* **Database Connection Test**: Run a command-line check to verify backend connectivity to the database.
+* **FastAPI Docs Verification**: Start the server and use `/docs` (Swagger UI) to test CRUD operations:
+  * Check that `GET /songs` lists all 15 initial songs.
+  * Check that `POST /songs` adds a new song.
+  * Check that `GET /songs/{id}` fetches the new song.
+  * Check that restarting the server doesn't erase new additions (confirming persistence).
+
+### Manual Verification
+* Run the React frontend, verify it loads the song list dynamically from the new database backend, and confirm it remains operational.

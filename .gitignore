@@ -1,0 +1,31 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.local
+
+# Python Caches & Virtual Envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+backend/venv/
+backend/.venv/
+env/
+.env/
+
+# Databases
+backend/music.db
+backend/music.db-journal
+
+# Secrets & Local Configs
+.env
+.env.local
+.env.*.local
+
+# Node/Frontend Build Output & Modules
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.npm
+.eslintcache
