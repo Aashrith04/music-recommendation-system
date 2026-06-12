@@ -1,3 +1,6 @@
+from spotify_service import SpotifyService
+from email import contentmanager
+
 import sys
 import json
 import os
@@ -42,7 +45,26 @@ def migrate_schema():
                 print("Adding column 'audio_url' to 'songs' table...")
                 conn.execute(text("ALTER TABLE songs ADD COLUMN audio_url VARCHAR(500)"))
                 columns_added = True
-            
+            if "spotify_url" not in columns:
+                print("Adding column 'spotify_url' to 'songs' table...")
+                conn.execute(text("ALTER TABLE songs ADD COLUMN spotify_url VARCHAR(500)"))
+                columns_added = True
+
+            if "spotify_track_id" not in columns:
+                print("Adding column 'spotify_track_id' to 'songs' table...")
+                conn.execute(text("ALTER TABLE songs ADD COLUMN spotify_track_id VARCHAR(100)"))
+                columns_added = True
+
+            if "album_cover" not in columns:
+                print("Adding column 'album_cover' to 'songs' table...")
+                conn.execute(text("ALTER TABLE songs ADD COLUMN album_cover VARCHAR(1000)"))
+                columns_added = True
+
+            if "preview_url" not in columns:
+                print("Adding column 'preview_url' to 'songs' table...")
+                conn.execute(text("ALTER TABLE songs ADD COLUMN preview_url VARCHAR(1000)"))
+                columns_added = True
+
             if columns_added:
                 conn.commit()
                 print("Columns added successfully.")
@@ -70,6 +92,8 @@ def seed_database(db: Session):
     inserted_count = 0
     updated_count = 0
 
+    spotify = SpotifyService()
+
     for item in seed_songs:
         title = item.get("title")
         artist = item.get("artist")
@@ -80,17 +104,34 @@ def seed_database(db: Session):
         album = item.get("album")
         audio_url = item.get("audio_url")
 
+        spotify_data = None
+        spotify_url = None
+        spotify_track_id = None
+        album_cover = None
+        preview_url = None
+
+        if spotify_data:
+            spotify_url = spotify_data.get("spotify_url")
+            spotify_track_id = spotify_data.get("spotify_track_id")
+            album_cover = spotify_data.get("album_cover")
+            preview_url = spotify_data.get("preview_url")
+
         # Check if song already exists in the database
         db_song = db.query(Song).filter(Song.title == title, Song.artist == artist).first()
 
         if db_song:
-            # Update the existing song's details
             db_song.genre = genre
             db_song.mood = mood
             db_song.language = language
             db_song.year = year
             db_song.album = album
+
             db_song.audio_url = audio_url
+
+            db_song.spotify_url = spotify_url
+            db_song.spotify_track_id = spotify_track_id
+            db_song.album_cover = album_cover
+            db_song.preview_url = preview_url
             updated_count += 1
         else:
             # Insert new song
@@ -102,7 +143,11 @@ def seed_database(db: Session):
                 language=language,
                 year=year,
                 album=album,
-                audio_url=audio_url
+                audio_url=audio_url,
+                spotify_url=spotify_url,
+                spotify_track_id=spotify_track_id,
+                album_cover=album_cover,
+                preview_url=preview_url,
             )
             db.add(new_song)
             inserted_count += 1

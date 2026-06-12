@@ -13,6 +13,11 @@ class SongBase(BaseModel):
     album: Optional[str] = None
     audio_url: Optional[str] = None
 
+    spotify_url: Optional[str] = None
+    spotify_track_id: Optional[str] = None
+    album_cover: Optional[str] = None
+    preview_url: Optional[str] = None
+
 
 class SongCreate(SongBase):
     """
@@ -32,8 +37,6 @@ class SongResponse(SongBase):
     Includes database-managed fields like id and created_at.
     """
     id: int
-    created_at: datetime
-
     model_config = {
         "from_attributes": True
     }

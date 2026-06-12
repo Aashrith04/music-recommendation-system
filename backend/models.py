@@ -13,27 +13,33 @@ favorites = Table(
     Column("created_at", DateTime(timezone=True), server_default=func.now(), nullable=False)
 )
 
+
 class Song(Base):
-    """
-    SQLAlchemy database model for the 'songs' table.
-    """
     __tablename__ = "songs"
 
     id = Column(Integer, primary_key=True, index=True)
-    title = Column(String(255), nullable=False)
-    artist = Column(String(255), nullable=False)
-    genre = Column(String(100), nullable=False)
-    mood = Column(String(100), nullable=True)
-    language = Column(String(50), nullable=True)
-    year = Column(Integer, nullable=True)
-    album = Column(String(255), nullable=True)
-    audio_url = Column(String(500), nullable=True)
-    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
+    title = Column(String, nullable=False)
+    artist = Column(String, nullable=False)
+    genre = Column(String)
 
-    # Relationship to get users who favorited this song
-    favorited_by = relationship("User", secondary=favorites, back_populates="favorite_songs")
+    mood = Column(String)
+    language = Column(String)
+    year = Column(Integer)
+    album = Column(String)
 
+    audio_url = Column(String)
+
+    spotify_url = Column(String, nullable=True)
+    spotify_track_id = Column(String, nullable=True)
+    album_cover = Column(String, nullable=True)
+    preview_url = Column(String, nullable=True)
+
+    favorited_by = relationship(
+        "User",
+        secondary=favorites,
+        back_populates="favorite_songs"
+    )
 
 class User(Base):
     """
